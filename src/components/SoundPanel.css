@@ -46,56 +46,47 @@
   @media (max-width: 720px){
     .App {
       display: inline-block;
-      align-items: center;
-      width: 100%;
-      padding: 0%;
-      margin: 0 auto;
-      text-align: center;
     }
   
     .player-container {
-      border-radius: 30px;
+      
     }
-    
-    p {
-      font-size: 20px;
-      font-weight: 400;
-      margin-bottom: 0.5%;
-      color: white;
-    }
-    
+
     .play-btn {
-      padding: 0;
-      margin: 0;
+
     }
+
+    .sound-title {
+
+    }
+    
+
+   
     div {
-      width: 100%;
-      margin: 0;
-      padding: 0;
+
     }
     
     img {
-      width: 25 px;
-      padding: 0% 0 0 0;
-      display: block;
+      width: 35px;
     }
     
     .player-container {
+      display: flex;
+      align-items: center;
       background-color: white;
       margin: 0 auto;
       margin: 0%;
       border-radius: 30px;
-      display: inline-block;
+   
     }
     p {
       font-size: 20px;
       font-weight: 400;
-      margin-bottom: 0.5%;
       color: black;
     }
 
     .player {
-      padding: 0% 2% 0% 2%;
+      padding: 0% 0% 0% 0%;
     }
 
 }
