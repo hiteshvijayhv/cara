@@ -1,0 +1,101 @@
+.App {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .player-container {
+    align-items: center;
+    margin: 0 auto;
+    background-color: #6D9886;
+    width: 100%;
+    margin: 4%;
+    padding: 1%;
+    border-radius: 30px;
+  }
+  
+  p {
+    font-size: 33%;
+    font-weight: 400;
+    margin-bottom: 2%;
+    color: white;
+  }
+  
+  .play-btn {
+    position: relative;
+    margin: 0px;
+  }
+  div {
+    width: 100%;
+  }
+  
+  img {
+    padding: 8% 0 0 0;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .player {
+    margin: 0 auto;
+    padding: 0% 5% 0% 5%;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 720px){
+    .App {
+      display: inline-block;
+      align-items: center;
+      width: 100%;
+      padding: 0%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .player-container {
+      border-radius: 30px;
+    }
+    
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0.5%;
+      color: white;
+    }
+    
+    .play-btn {
+      padding: 0;
+      margin: 0;
+    }
+    div {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    img {
+      width: 25 px;
+      padding: 0% 0 0 0;
+      display: block;
+    }
+    
+    .player-container {
+      background-color: white;
+      margin: 0 auto;
+      margin: 0%;
+      border-radius: 30px;
+      display: inline-block;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0.5%;
+      color: black;
+    }
+
+    .player {
+      padding: 0% 2% 0% 2%;
+    }
+
+}

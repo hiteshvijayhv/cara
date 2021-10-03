@@ -1,0 +1,18 @@
+.App {
+    
+}
+    
+
+
+img {
+    width: 50px;
+}
+
+.btn {
+}
+
+@media (max-width: 720px){
+    .btn-img {
+        width: 25px;
+    }
+}

@@ -1,0 +1,26 @@
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #F6F6F6;
+}
+
+.home-link {
+    display: flex;
+    width: 100%;
+    font-size: 190%;
+    font-weight: 700;
+    color: #282828;
+    font-weight: 400;
+    color: #808080;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-text {
+    margin-top: 9px;
+    color: #808080;
+    font-size: 125%;
+}
